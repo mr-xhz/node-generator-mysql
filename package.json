@@ -1,0 +1,25 @@
+{
+  "name": "node-generator-mysql",
+  "version": "1.0.0",
+  "description": "mysql generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "node __test__/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr-xhz/node-generator-mysql.git"
+  },
+  "keywords": [
+    "node-generator-mysql"
+  ],
+  "author": "xhz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mr-xhz/node-generator-mysql/issues"
+  },
+  "homepage": "https://github.com/mr-xhz/node-generator-mysql#readme",
+  "dependencies": {
+    "mysql": "^2.13.0"
+  }
+}
