@@ -3,13 +3,11 @@ var mysql = require("../index");
 mysql.configure({
   dataSource:[
     {
-      url:"zhangxh.cn:3306/drs,zhangxh.cn:3306/drs",
+      url:"localhost:3306/drs,localhost:3306/drs",
       user:"root",
-      password:"mysql!@#root",
-      prefix:"test_",
-      model:[
-        "user"
-      ]
+      password:"root",
+      prefix:"",
+      model:[]
     }
   ],
   logger:{
