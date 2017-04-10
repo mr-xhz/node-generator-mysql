@@ -73,7 +73,7 @@ OK 配置结束，开始愉快的使用吧
   var user = {
     user_name:"小明",
     status:1,
-    no_column:"no_column"
+    no_column:"no_column" //这个字段在插入的时候会被过滤掉
   };
   userModel.insert(user,function(rs){
     console.log(rs.user_id);
