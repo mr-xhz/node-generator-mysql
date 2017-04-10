@@ -1,6 +1,4 @@
-
 # node-generator-mysql
-[TOC]
 
 ## 概述
 1. 这是一个让你可以远离大部分SQL语句拼接的模块
