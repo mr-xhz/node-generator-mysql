@@ -5,7 +5,7 @@
 2. 这是一个支持多个数据源，主从分离的模块
 
 ## 版本
-v1.0.0 基础功能的支持
+v1.0.0 基础功能的支持 [v1.0.0](https://github.com/mr-xhz/node-generator-mysql)
 
     1.增删改查样样都有
     2.支持主从配置
@@ -15,9 +15,11 @@ v1.0.0 基础功能的支持
 ## 安装
 先安装吧，骚年。
 
-由于还没有放到npm上面，所以现在只能通过手动去安装，找到本模块的git地址，clone一下，然后在本地执行一下：
+由于还没有放到npm上面，所以现在只能通过手动去安装，找到本模块的git [v1.0.0]:https://github.com/mr-xhz/node-generator-mysql.git 地址，clone一下，然后在本地执行一下：
 
-`npm install`
+```sh
+$ npm install
+```
 
 安装本模块的mysql依赖。
 
