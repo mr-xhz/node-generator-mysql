@@ -1,4 +1,7 @@
+
 # node-generator-mysql
+[TOC]
+
 ## 概述
 1. 这是一个让你可以远离大部分SQL语句拼接的模块
 2. 这是一个支持多个数据源，主从分离的模块
@@ -165,7 +168,14 @@ userModel.where("user_id",[1,2],"in");
 userModel.where("user_id",[1,2],"between");
 userModel.where("user_id","1,2","between");
 //WHERE user_name LIKE %小%
+userModel.where("user_name","小","%");
 userModel.where("user_name","%小%","like");
+//WHERE user_name LIKE %小
+userModel.where("user_name","小","%_");
+userModel.where("user_name","%小","like");
+//WHERE user_name LIKE 小%
+userModel.where("user_name","小","_%");
+userModel.where("user_name","小%","like");
 //WHERE user_name IS null
 userModel.where("user_name",null,"IS");
 //WHERE user_name IS NOT null
